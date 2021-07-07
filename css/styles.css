@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* debug border */
+/* .main-header,
+.main-nav, 
+.main-nav li,
+.footer,
+.portfolio,
+.contacts {
+    border: 1px solid red;
+} */
+
+/* NAVBAR */
+.main-header,
+.main-nav,
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-header {
+    margin: .5em;
+}
+
+.name,
+.main-nav li {
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    background-color:gainsboro;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bio-image {
+    width: 250px;
+}
+
+.bio p {
+    margin: 1em;
+    padding: 1em;
+}
+
+/* PORTFOLIO */
+.portfolio,
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio h1 {
+    margin: 1em;
+}
+
+.project-image {
+    width: 300px;
+    margin: .5em;
+}
+
+.project h2 {
+    padding: 1em 0 0 0;
+}
+
+.project p {
+    margin: 1em;
+    padding-bottom: 1em;
+}
+
+/* CONTACTS */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h1 {
+    margin: 1em;
+}
+
+.contact-address {
+    padding: 1em;
+    margin: 1em;
+}
+
+.contact-address p {
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* FOOTER */
+.footer,
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    margin: .5em;
+}
