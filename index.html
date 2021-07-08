@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Mobile-first Responsive Layout</title>
 </head>
 
@@ -12,7 +15,7 @@
 <!-- NAVBAR -->
     <header>
         <div class="main-header">
-            <h1 class="name">Alex</h1>
+            <h1 class="name">Student Name</h1>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#" class="button">Home</a></li>
@@ -23,13 +26,16 @@
         </div>
         <div class="bio">
             <img src="images/responsive-layout-profile.png" alt="Profile Image" class="bio-image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, sunt illo quo vitae doloremque voluptatum. Nulla fuga, nihil eaque aspernatur rem numquam explicabo veniam eos, culpa nemo quibusdam, repellat illo?</p> 
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> 
         </div> 
     </header>
     <main>
 <!-- PORTFOLIO -->
         <div class="portfolio">
             <h1>Portfolio</h1>
+
+            <div class="project-wrapper">
+
             <div class="project project-1">
                 <img src="images/portfolio-1.png" alt="" class="project-image">
                 <h2>Marketing Page</h2>
@@ -52,7 +58,7 @@
             </div>
             <div class="project project-5">
                 <img src="images/portfolio-5.png" alt="" class="project-image">
-                <h2>Photo Galary</h2>
+                <h2>Photo Gallary</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci alias praesentium porro autem cupiditate ipsum sint sed ipsam voluptas.</p>
             </div>
             <div class="project project-6">
@@ -62,14 +68,17 @@
             </div>
         </div>
 
+
+        </div>
+
 <!-- CONTACTS -->
         <div class="contact">
             <h1>Contact</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga porro eius iste ut consectetur soluta culpa officia velit ullam. Animi ducimus necessitatibus error minima expedita non, excepturi eaque commodi ratione.
             </p>
             <address class="contact-address">
-                <p>Phone: +1 (111) 555-1234</p>
-                <p>Email: email@email.com</p>
+                <p>Phone: <b>+1 (111) 555-1234</b></p>
+                <p>Email: <b>email@email.com</b></p>
             </address>
         </div> 
     </main>  
@@ -77,10 +86,13 @@
 <!-- FOOTER -->
     <footer>
         <div class="footer">
-            <h1 class="name">Alex</h1>
+            <h1 class="footer-name">Alex</h1>
             <nav class="footer-nav">
                 <ul>
-                    <li><a href="#" class="button">Back to Top</a></li>
+                    <li><a href="#" class="hide-small btn-footer">Home</a></li>
+                    <li><a href="#" class="hide-small btn-footer">Portfolio</a></li>
+                    <li><a href="#" class="hide-small btn-footer">Contact</a></li>
+                    <li><a href="#" class="hide-big btn-footer">Back to Top</a></li>
                 </ul>
             </nav>
         </div>
